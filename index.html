@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Totaly Google Drive</title>
+ <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <link  href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" rel="stylesheet"  />
+  <script src="accordion.js" defer></script>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-boxt;
+}
+<script type="module">const user = await getUserInfo() </script>
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 87px;
+  text-align: center;
+  background-color: #504E4E;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color:black;
+}
+   button{
+        color: #0B8E0B;
+        background-color: black;
+      }
+  /* unvisited link */
+a:link {
+  color: #A1A4A1;
+}
+
+/* visited link */
+a:visited {
+  color: #0F6FEA;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0E4079;
+}
+
+/* selected link */
+a:active {
+  color: #EC331D;
+}
+      
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; 
+  background-color: #726E6E;
+}
+
+/* Style the navigation bar Useless Links */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 17px 20px;
+  text-decoration: red;
+}
+
+/* Right-aligned Useless Link */
+.navbar a.right {
+  float: right;
+}
+  
+/* Change color on hover */
+.navbar a:hover {
+  background-color: black;
+  color:#299C07;
+  transition-duration: 1s;
+}
+
+  .accordion {
+  background-color: #696C69;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+    cursor: grab;
+}
+
+  .active, .accordion:hover {
+  background-color: #4A4B4A; 
+    transition-duration: 1s;
+}
+
+  .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #5B5C5B;
+  overflow: hidden;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #878987;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #727472;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 19px;
+  font-size: 25px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #061C67;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation Useless Links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+  <div class="navbar">
+  <a href="https://axiom.woodguardnature.repl.co/service/hvtrs8%2F-a%60smunuveny%2Fuqeneqs%2Cwmofgwapdlavupe%2Crgpn.ao-">Useless</a>
+  <a href="https://ec-x-188.mayorfries.repl.co/">Minecraft 1.8</a>
+  <a href="file:///media/fuse/drivefs-ebc35396c1d8b20d4189053d4c514f49/root/Minecraft.html">Minecraft 1.5.2</a>
+  <a href="https://ntindustries.woodguardnature.repl.co/">Nt-Industries</a>
+  <a href="https://axiom.woodguardnature.repl.co/service/hvtrs8%2F-cnaqskc%2Cmkngcpadt%2Cngt-%3Fhokn%3Fl2rUfDTGjtvNxVrw">Old Minecraft</a>
+  <a href="https://axiom.woodguardnature.repl.co/service/hvtrs8%2F-wuw%2Cgmoelg.aoo%2F%3Dgus%5Drf%3Dqsn%26rcac%3F1">Unblocked Google</a>
+  <a href="https://axiom.woodguardnature.repl.co/service/hvtrs8%2F-wuw%2Ccpaxyeaoeq.aoo%2F">Crazy Games</a>
+  <a href="soon.html">Coming Soon</a>
+  
+</div>
+<div class="header">
+  <h1>Axiom</h1>
+  <h2>A Cool Evasion Proxy</h2>
+
+
+   <form id="searchbar"action="/service" method="POST">
+         <input type="text" name="url" class="form__input" id="name" placeholder="Search Here..." />
+      </form>
+      <div id="section">
+        <div id="featured">
+
+        </div>
+      </div>
+      <div id="bottom">
+         <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+      </div>
+      <script src="uv/uv.bundle.js"></script>
+      <script src="uv/uv.config.js"></script>
+      <script src="index.js"></script>
+  </div>
+
+
+</body>
+</html>
